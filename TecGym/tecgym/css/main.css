@@ -1,0 +1,86 @@
+body{
+
+color: black;
+background-color:red;
+background-image: url("../img/1.png");
+background-repeat:no-repeat;
+background-position: center;
+background-attachment:fixed;
+background-size: 100%
+
+}
+img{
+
+	width: 500px
+}
+.img2{
+	width: 340px
+	}
+.mi-letra{
+	color: red;
+font-family: 'Dancing Script', cursive;
+font-size: 50px;
+
+
+}
+.mi-letra2{
+	color: red;
+font-family: 'Montserrat', sans-serif;
+font-size: 50px;}
+.grande{
+	font-size: 3px;
+}
+.mi-letra3{
+	color: black;
+font-family: 'Dancing Script', cursive;
+font-size: 40px;}
+.mi-letra4{
+	color: blue;
+font-family: 'Dancing Script', cursive;
+font-size: 25px;}
+.centrar{
+
+	text-align: center;
+}
+.stroke {
+text-align:center; 
+color: #fff;
+font-family: impact;
+font-size: 40px;
+letter-spacing: 0;
+text-shadow: -3px -3px 3px red, 3px -3px 3px red, -3px 3px 3px red, 3px 3px 3px red;
+}
+.stroke2 {
+text-align:center; 
+color: blue;
+font-family: impact;
+font-size: 40px;
+letter-spacing: 0;
+text-shadow: -3px -3px 3px white, 3px -3px 3px white, -3px 3px 3px white, 3px 3px 3px white;
+}
+.stroke3 {
+text-align:center; 
+color: black;
+font-family: impact;
+font-size: 40px;
+letter-spacing: 0;
+text-shadow: -3px -3px 3px white, 3px -3px 3px white, -3px 3px 3px white, 3px 3px 3px white;
+}
+.margenes{
+	margin-left:100px;
+	margin-right:100px;
+	}
+	.submenu a{
+	display: block;
+	padding: 10px 50px;
+	width: 130px;
+}
+#menu-wrapper ul{padding: 0;
+	list-style:none;
+}
+#hmenu > li{
+	display: inline-block;
+	padding: 10px 5px;
+	width: 90px;
+	text-align:center;
+	
