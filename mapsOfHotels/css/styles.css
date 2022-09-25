@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.degradado-background {
+    background: rgb(204, 207, 219);
+    height: 65em;
+    background: linear-gradient(90deg, rgba(204, 207, 219, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.bg-image-tele {
+    background-image: url(../images/bg-tele-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 80em;
+    position: absolute;
+    top: -20em;
+    right: 0;
+}
+
+.svg-logo {
+    position: absolute;
+    top: 3em;
+    width: 12em !important;
+    z-index: 99;
+}
+
+.svg-logo:hover {
+    cursor: pointer;
+    width: 550px;
+    height: auto;
+}
+
+
+/* fin estilos pantalla inicio */
+
+
+/* Inicio estilos pantalla boton iniciar */
+
+.bg-button-start {
+    background-image: url(../images/blue-wave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120%;
+    height: 63em;
+    left: -30em;
+    position: absolute;
+    z-index: 0;
+}
+
+.degradado-background-button-start {
+    background: rgb(204, 207, 219);
+    height: 65em;
+    background: linear-gradient( 90deg, rgba(204, 207, 219, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.button-start {
+    background-color: #005AEB;
+    padding: 0.5em 4em;
+    border-radius: 5em;
+    color: #fff;
+    font-size: 3em;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    z-index: 999;
+}
+
+.button-start:hover {
+    cursor: pointer;
+}
+
+.button-start-icon-play {
+    color: #001959;
+    padding-left: 1em;
+}
+
+
+/* Fin estilos pantalla boton iniciar */
+
+
+/* Inicio estilos mapas */
+
+.bg-maps {
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.pop-up-instructs {
+    position: absolute;
+    bottom: 4em;
+    right: 3em;
+    color: #465280;
+    background-color: #fff;
+    padding: 2em;
+    font-size: 2em;
+    width: 35%;
+    -webkit-box-shadow: 0px 0px 18px 1px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 18px 1px rgb(0 0 0 / 75%);
+}
+
+.pop-up-instructs-icon-play {
+    color: #005AEB;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 5px;
+    left: 16px;
+}
+
+
+/* El top y left viene de la funcion script */
+
+.icon-ubicacion {
+    position: absolute;
+}
+
+.icon-ubicacion:hover {
+    cursor: pointer;
+}
+
+
+/* Inicio estilos modal */
+
+.container_modal {
+    position: absolute;
+    background-color: #fff;
+    padding: 2em;
+    text-align: left;
+    width: 40em;
+    height: 40em;
+    z-index: 999;
+}
+
+.icon-play-modal {
+    color: #005AEB;
+    font-size: 1.5em;
+    position: absolute;
+    right: 2em;
+}
+
+.img-hotel {
+    width: 100%;
+    height: auto;
+    margin: 2em 0px;
+}
+
+.text-description-modal {
+    font-size: 1.3em;
+}
+
+.icon-play-modal:hover {
+    cursor: pointer;
+}
+
+
+/* Fin estilos modal*/
+
+
+/* inicio estilos formulario */
+
+.button-create {
+    position: absolute;
+    top: 2em;
+    right: 4em;
+    border: navajowhite;
+    font-size: 2em;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: #001959;
+    color: #ffff;
+}
+
+.button-create:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #465280;
+}
+
+.icon-plus {
+    margin: 0 0.7em;
+}
+
+#crear_hotel {
+    position: absolute;
+    right: 5em;
+    width: 25%;
+    background-color: #001959;
+    padding: 2em 9em;
+    border-radius: 1em;
+    z-index: 999;
+    display: none;
+    opacity: 0;
+}
+
+.create_element form h1 {
+    color: #fff;
+    text-align: center;
+    margin: 1em;
+    font-size: 2em;
+}
+
+.create_element form input {
+    width: 100%;
+    padding: 0.5em 1em;
+    font-size: 2em;
+    text-align: center;
+    margin: 0.3em 0;
+}
+
+.button-crear {
+    background-color: #fff;
+    border: none;
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 5em;
+}
+
+.button-crear:hover {
+    cursor: pointer;
+}
+
+.icon-save {
+    font-size: 1.5em;
+    margin-left: 1em;
+    color: #465280;
+}
+
+#description {
+    width: 175%;
+    position: relative;
+    right: 3em;
+}
+
+#title {
+    width: 150%;
+    position: relative;
+    right: 2em;
+}
+
+
+/* Fin estilos formulario */
+
+
+/* Fin estilos mapas */

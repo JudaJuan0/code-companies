@@ -1,0 +1,22 @@
+.degradado-background svg {
+    width: 50%;
+}
+
+.bg-image-tele {
+    height: 30em;
+    top: 10em;
+}
+
+
+/* Inicio estilos de pantalla boton-start */
+
+.button-start {
+    font-size: 2em;
+}
+
+.bg-button-start {
+    left: -20%;
+}
+
+
+/* Fin estilos de pantalla boton-start */
