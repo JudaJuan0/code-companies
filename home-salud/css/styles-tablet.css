@@ -1,0 +1,58 @@
+.background-transparent {
+    display: block;
+    padding: 2em 7em;
+    text-align: center;
+    height: auto;
+}
+
+.ckecks {
+    width: 100%;
+    margin-top: 9px;
+}
+
+.check-title {
+    width: 100%;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.container-info {
+    display: block;
+    font-size: 1.5em;
+}
+
+.container-info p {
+    padding: 2em;
+}
+
+.slide-banner-text {
+    font-size: 2em;
+    text-align: center;
+}
+
+.slide-banner-text hr {
+    width: 80%;
+    left: 1em;
+}
+
+.container-logo {
+    width: 100%;
+}
+
+.header {
+    display: none;
+}
+
+.slide-banner {
+    background-size: 100% 100%;
+}
+
+.ckecks b {
+    font-size: 2em;
+}
+
+.text-info {
+    padding: 2em 0em;
+    text-align: center;
+    font-size: 1.3em;
+}

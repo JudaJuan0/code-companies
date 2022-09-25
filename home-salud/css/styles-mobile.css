@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-details {
+    display: block;
+}
+
+.details {
+    padding: 2em 3em;
+    margin: 2em 1em;
+}
+
+.container-banner {
+    height: auto;
+    display: block;
+}
+
+.container-banner-form-contact {
+    width: 100%;
+}
+
+.slide-banner {
+    width: 100%;
+}
+
+.container-info {
+    padding: 1em;
+}
+
+.header {
+    display: inline-block;
+    margin: 0 5em;
+    float: right;
+    text-align: right;
+}
+
+.container-logo {
+    bottom: 0;
+}
+
+.container-info-contact {
+    display: block;
+}
+
+.map-contact {
+    width: 100%;
+    padding: 2em;
+}
+
+.text-info {
+    width: 100%;
+}

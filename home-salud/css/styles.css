@@ -1,0 +1,266 @@
+/* Setea estilos de navegador */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+:root {
+    --color-principal: #0071b5;
+    --color-secundario: #ff5a1a;
+}
+
+
+/*  */
+
+.container-logo {
+    width: 30em;
+    height: 10em;
+    background-color: var(--color-principal);
+    color: #ffff;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+    bottom: 13px;
+    display: inline-block;
+}
+
+.container-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: inline-block;
+    margin: 0 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+.header ul li {
+    margin-bottom: 2px;
+}
+
+.list-header li {
+    padding: 0em 0 0.2em 0;
+    font-size: 1.7em;
+    color: var(--color-principal);
+}
+
+.list-header li b {
+    font-size: 2em;
+    padding: 0;
+}
+
+
+/* contenido  */
+
+.container-banner {
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    height: 48em;
+}
+
+.slide-banner {
+    width: 70%;
+    height: auto;
+    background-image: url('../img/img-principal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-banner-text {
+    font-size: 3em;
+    text-align: right;
+    padding: 5em 2em;
+    padding-bottom: 4em;
+    color: var(--color-principal);
+}
+
+.slide-banner-text hr {
+    width: 20%;
+    height: 2px;
+    background-color: var(--color-principal);
+    border: none;
+    position: relative;
+    left: 80%;
+    right: 20%;
+    margin: 0.3em;
+}
+
+.slide-banner-text b {
+    color: var(--color-secundario);
+}
+
+
+/* formulario */
+
+.container-banner-form-contact {
+    width: 29%;
+    text-align: center;
+    background-color: var(--color-principal);
+    padding: 3em;
+    color: #fff;
+}
+
+.container-banner-form-contact hr {
+    background-color: #00a1d8;
+    margin: 1em;
+    height: 2px;
+    border: none;
+}
+
+.container-banner-form-contact h1 {
+    font-size: 2.2em;
+}
+
+.container-banner-form-contact h1 b {
+    color: var(--color-secundario);
+}
+
+.container-banner-form-contact input {
+    width: 80%;
+    border: none;
+    padding: .8em;
+    margin: .5em;
+}
+
+.container-banner-form-contact button {
+    padding: 1em 2em;
+    color: #fff;
+    background-color: var(--color-secundario);
+    border: none;
+    text-transform: uppercase;
+    margin: 2em 0;
+}
+
+
+/* contenido slider */
+
+.background-transparent {
+    display: flex;
+    padding: 0 0 0 8em;
+    background-color: #0071b56e;
+    height: 8.8em;
+    position: relative;
+}
+
+.ckecks {
+    width: 33.3%;
+    margin-top: 30px;
+}
+
+.ckecks b {
+    color: #fff;
+    font-size: 3em;
+    margin-left: 0.5em;
+}
+
+.check-title {
+    color: #fff;
+    background-color: var(--color-secundario);
+    width: 15.3%;
+    text-align: center;
+    font-size: 3em;
+    padding: 1em 0;
+}
+
+
+/* section graduation */
+
+.container-info {
+    background-color: gainsboro;
+    text-align: center;
+    display: flex;
+    padding: 2em 8em;
+    color: #0172b6;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.container-info p {
+    padding: 0 2em;
+}
+
+.line-blue-footer {
+    background-color: var(--color-principal);
+    height: 1em;
+    width: 100%;
+}
+
+
+/* section details */
+
+.container-details {
+    display: flex;
+    padding: 2em;
+}
+
+.container-details h1 {
+    color: var(--color-principal);
+    padding: 1em 0;
+    font-size: 2em;
+}
+
+.container-details p {
+    font-size: 1.3em;
+    color: #0000009e;
+}
+
+.details {
+    border: 1px solid #656a70;
+    padding: 2em 4em;
+    margin: 0 1.2em;
+}
+
+
+/* contact */
+
+.container-info-contact {
+    display: flex;
+    padding: 2em 0;
+    padding-bottom: 0;
+}
+
+.text-info {
+    width: 40%;
+}
+
+.map-contact {
+    background-color: gainsboro;
+    padding: 3em 1em 2em 6em;
+    width: 59%;
+}
+
+.text-info {
+    color: #fff;
+    background-color: var(--color-principal);
+    padding: 1em 4em;
+    font-size: 2em;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #4c4c4c;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em 0;
+}
