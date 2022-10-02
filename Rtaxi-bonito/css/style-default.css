@@ -1,0 +1,627 @@
+/* radio css */
+
+.control {
+    font-family: arial;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+    border: 0px solid #000000;
+    border-radius: undefinedpx;
+}
+
+.control:hover input~.control_indicator,
+.control input:focus~.control_indicator {
+    background: #cccccc;
+}
+
+.control input:checked~.control_indicator {
+    background: #2aa1c0;
+}
+
+.control input:disabled~.control_indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.control input:checked~.control_indicator:after {
+    display: block;
+}
+
+.control-radio .control_indicator {
+    border-radius: 50%;
+}
+
+.control-radio .control_indicator:after {
+    left: 7px;
+    top: 7px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #ffffff;
+    transition: background 250ms;
+}
+
+.control-radio input:disabled~.control_indicator:after {
+    background: #7b7b7b;
+}
+
+.control-radio .control_indicator::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: -1.3rem;
+    margin-top: -1.3rem;
+    background: #2aa1c0;
+    border-radius: 3rem;
+    opacity: 0.6;
+    z-index: 99999;
+    transform: scale(0);
+}
+
+@keyframes s-ripple {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0.01;
+        transform: scale(1);
+    }
+}
+
+@keyframes s-ripple-dup {
+    0% {
+        transform: scale(0);
+    }
+    30% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.control-radio input+.control_indicator::before {
+    animation: s-ripple 250ms ease-out;
+}
+
+.control-radio input:checked+.control_indicator::before {
+    animation-name: s-ripple-dup;
+}
+
+
+/* Fin radio css */
+
+.header {
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #fed702;
+}
+
+.header-credit {
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #e62830;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.title-header {
+    float: right;
+    display: inline-block;
+    padding: 30px;
+}
+
+.title-header-credit {
+    float: right;
+    display: inline-block;
+    padding: 20px;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.section-red {
+    background-color: #e62830;
+    padding: 30px 50px 20px 50px;
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    bottom: 50px;
+}
+
+.title-section-form {
+    color: #e62830;
+    font-size: 55px;
+}
+
+.img-form {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.ul-btns-changes {
+    text-decoration: none;
+    padding: 0;
+}
+
+.ul-btns-changes li {
+    display: inline-block;
+    margin: 0 5px;
+    color: #777775;
+}
+
+.ul-btns-changes li input {
+    width: 15px;
+    height: 15px;
+}
+
+#correos input {
+    width: 95%;
+    border: none;
+    display: block;
+    border-bottom: 2px solid #76787b;
+    background-color: #e1e2e4;
+    color: #000;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: 500;
+    text-align: center;
+}
+
+#correos-crediprosperar input {
+    width: 95%;
+    border: none;
+    display: block;
+    border-bottom: 2px solid #76787b;
+    background-color: #e1e2e4;
+    color: #000;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-correos {
+    background-color: #e62830;
+    padding: 10px;
+    color: #fff;
+    width: 80%;
+    border: 2px solid #fed702;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.label-form {
+    color: #4b4c4d;
+    font-weight: 600;
+}
+
+.direcciones>div {
+    padding: 0;
+}
+
+.p-left-20 {
+    padding-left: 20px !important;
+}
+
+.p-right-20 {
+    padding-right: 20px !important;
+}
+
+.terminos {
+    color: #76787b;
+    font-size: 11px;
+    padding: 10px;
+    margin: 0;
+}
+
+.list-reqs li {
+    color: red;
+    font-size: 25px;
+}
+
+.list-reqs li p {
+    color: #4b4c4d;
+    margin: 0px;
+    font-size: 17px;
+}
+
+.list-whatsapp {
+    text-decoration: none;
+    margin: 0;
+}
+
+.list-whatsapp li {
+    display: inline;
+    text-decoration: underline;
+    color: #1b9249;
+}
+
+.list-whatsapp li b {
+    color: #fff;
+}
+
+.list-whatsapp li img {
+    width: 70px;
+    height: auto;
+}
+
+.section-whattsapp {
+    background-color: #4b4c4d;
+    color: #fff;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #e9eaeb;
+    font-size: 35px;
+}
+
+.title-footer-icons {
+    color: #ff232d;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.subtitle-footer-icons {
+    color: #4b4c4d;
+    font-size: 20px;
+}
+
+.img-footer {
+    width: 150px;
+    margin: 20px 0;
+}
+
+.text-form-credit {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.img-form-credit {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.section-yellow {
+    background-color: #fcd500;
+    padding: 30px 50px 20px 50px;
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+}
+
+.table-ventajas {
+    width: 80%;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.table-ventajas>tbody>tr:nth-child(odd)>td,
+.table-ventajas>tbody>tr:nth-child(odd)>th {
+    background-color: #e1e2e4;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-ventajas>tbody>tr:nth-child(even)>td,
+.table-ventajas>tbody>tr:nth-child(even)>th {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon-in-blanco {
+    width: 200px;
+    height: auto;
+}
+
+.section-whattsapp-credit {
+    background-color: #50b951;
+    color: #fff;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.list-whatsapp-credit {
+    text-decoration: none;
+    margin: 0;
+}
+
+.list-whatsapp-credit li {
+    display: inline;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.list-whatsapp-credit li img {
+    width: 60px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.title-section3 {
+    padding: 0 318px !important;
+}
+
+.checks {
+    background-color: #4b4c4d;
+    color: #fff;
+}
+
+.title-section-checks {
+    color: #fcd500;
+    font-size: 50px;
+}
+
+.list-checks {
+    text-decoration: none;
+}
+
+.list-checks li {
+    display: inline-block;
+}
+
+.title-section-benefit {
+    color: #ff232d;
+    font-size: 50px;
+}
+
+.list-benefit li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.section-benefit {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ul-btns-changes>li>input:hover {
+    cursor: pointer;
+}
+
+.ul-btns-changes>li>label:hover {
+    cursor: pointer;
+}
+
+.loading {
+    position: fixed;
+    top: 25%;
+    z-index: 999;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    background-color: #fff;
+    padding: 90px;
+    text-align: center;
+    border: 2px #ffc700 solid;
+    border-radius: 20px;
+    display: none;
+    color: #ff0b10;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.send-success {
+    position: fixed;
+    top: 15%;
+    z-index: 999;
+    width: 50%;
+    height: 500px;
+    left: 25%;
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border: 2px #00e676 solid;
+    border-radius: 20px;
+    display: none;
+    color: #e62830;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.img-modal {
+    width: 200px;
+    height: auto;
+}
+
+.logo-modal {
+    width: 200px;
+    height: auto;
+}
+
+.logo-modal-credit {
+    width: 400px;
+    height: auto;
+}
+
+.text-btn-credit {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.checks-change {
+    padding-top: 160px !important;
+}
+
+.sub-title-modal {
+    color: #76787b;
+}
+
+.btn-whattsapp {
+    background-color: #00e676;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+    position: fixed;
+    bottom: 40px;
+    color: #fff;
+    right: 50px;
+    z-index: 9999;
+}
+
+.btns-scroll {
+    display: none;
+}
+
+.icon-wt {
+    font-size: 60px;
+    padding: 0 10px;
+}
+
+.btn-whattsapp:hover {
+    background-color: #e62830;
+    color: #00e676;
+}
+
+.btn-scroll:hover {
+    background-color: #e62830;
+    color: #fff;
+}
+
+.btn-scroll {
+    background-color: #fed702;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+    position: fixed;
+    bottom: 140px;
+    color: #fff;
+    right: 50px;
+    z-index: 9999;
+}
+
+
+/* Inicio mobile */
+
+@media screen and (max-width:991px) {
+    .img-form {
+        margin-top: 50px;
+    }
+    .formulario {
+        text-align: center;
+        padding: 0 10px !important;
+    }
+    #correos input {
+        width: 60%;
+    }
+    #correos-crediprosperar input {
+        width: 60%;
+    }
+    .p-left-20 {
+        padding: 0 !important;
+    }
+    .p-right-20 {
+        padding: 0 !important;
+    }
+    .terminos {
+        padding: 10px 130px;
+    }
+    .btn-correos {
+        margin: 50px 0;
+    }
+    .section-red {
+        font-size: 30px;
+    }
+    .list-whatsapp li {
+        font-size: 20px;
+    }
+    .list-whatsapp li img {
+        width: 50px;
+    }
+    .section-yellow {
+        font-size: 30px;
+    }
+    .py-5>.row>.p-5 {
+        padding: 0 !important;
+    }
+    .table-ventajas {
+        margin: 0 auto;
+    }
+    .title-section3 {
+        padding: 0px 100px !important;
+    }
+    .list-checks {
+        text-align: center;
+    }
+    .section-benefit>.row>.text-right {
+        text-align: center !important;
+    }
+    .list-benefit {
+        width: 50%;
+        margin: 50px auto;
+    }
+    .loading {
+        height: 300px;
+    }
+    .send-success {
+        height: 230px;
+    }
+    .checks-change {
+        padding-top: 60px !important;
+    }
+}

@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!--Esto es para hacer compatible la pagina web con explorer edge-->
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <!--Esto es para hacer compatible la pagina web con explorer 8-->
+    <meta http-equiv="X-UA-Compatible" content="IE=8; IE=9" />
+    <!--Esto es para hacer compatible la pagina web con explorer 8,9-->
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoportesVirtuales.com</title>
+    <!--Esto es la imagen de la pestaña-->
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/*x-icon" />
+    <!--Inicio de estilos-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/estilos_menu.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos_globales.css">
+    <link rel="stylesheet" href="css/estilos_safari.css">
+    <link href="./css/estilos_diferentes_pantallas.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Fin de estilos-->
+
+    <!--Esto es para reconocer el navegador en donde se carga la pagina web-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            if (/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())) {
+
+            } else {
+                alert('Para mejor rendimiento de la pagina por favor carguela en el navegador de Google chrome')
+            }
+        });
+        // cuando acabe de cargar la pagina va a ocultar el gif cargando
+        $(window).load(function() {
+            $('#cargando').hide();
+        });
+    </script>
+</head>
+
+<body>
+
+
+
+
+    <!---Inicio del menu-->
+    <div class="container" style="padding-top: 1em;">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex6-collapse">
+        <span class="sr-only">Desplegar navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a href="instalador_soporte_remoto.exe" target="_blank"><img src="imagenes/logo.png" id="imagen_logo_header" class="navbar-brand"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex6-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#imagen_principal" method="post">Inicio</a></li>
+                    <li><a href="#texto_confie" method="post">¿Qué es Soporte Virtual?</a></li>
+                    <li><a href="#contenedor_pasos_ancla" method="post">Portafolio</a></li>
+                    <li><a href="#imagen_contacto" method="post">Cont&aacute;ctenos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!---Fin del menu-->
+        <!--Inicio de gif cargando-->
+
+        <div id="cargando">
+            <br>
+            <br>
+            <br>
+            <br>
+            <center><img src="imagenes/Cargando.gif" id="imagen_cargando"> </center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <!--Fin de gif cargando-->
+        <br>
+        <!--Inicio de div de la imagen principal-->
+        <div class="row">
+            <div class="col-md-12">
+                <img src="imagenes/imagen_principal.png" id="imagen_principal">
+
+            </div>
+        </div>
+        <!--inicio div redes sociales-->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="redes_sociales">
+                    <a href="tweet" target="_blank"><i id="logos_redes_sociales" class="fa">&#xf081;</i></a>
+                    <a href="facebook" target="_blank"><i id="logos_redes_sociales" class="fa">&#xf082;</i><a/>
+                </div>
+            </div>
+        </div>
+        <!--fin div redes sociales-->
+        <!--Inicio de texto de la imagen principal-->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="div_texto_imagen_principal">
+                    <div id="div_texto_principal">
+                        <p>SOPORTE TÉCNICO <br>24 HORAS</p>
+                    </div>
+                    <p id="texto_confie">CONFÍE EN NOSOTROS SUS NECESIDADES DE INFORMÁTICA Y TECNOLOGÍA</p>
+                </div>
+            </div>
+        </div>
+        <!--Fin de texto de la imagen principal-->
+        <!--Fin de div de la imagen principal-->
+
+        <!-- Inicio de que es soportesvirtuales.com -->
+        <div class="row">
+            <div class="col-md-6">
+                <div id="que_es_sv_1">
+                    <center>
+                        <i class="titulo_mision_vision">Misión</i><br><br>
+                        <div class="animacion_texto_vision">
+                            <p class="texto_mision_vision"> Garantizar nuestros servicios contando con personal multidisciplinario, capacitado y de altos valores.
+                            </p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div id="que_es_sv_2">
+                    <center>
+                        <i class="titulo_mision_vision">Visión</i><br><br>
+                        <div class="animacion_texto_vision">
+                            <p class="texto_mision_vision">Hacer de “<b>SoportesVirtuales.com</b>” una empresa que brinde a sus clientes soluciones justas y económicas. </p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!-- Fin de que es soportesvirtuales.com -->
+
+
+    <div class="row">
+        <div class="row">
+            <div class="col-md-12">
+                <center>
+                    <div id="linea"></div>
+                    <div id="texto_algunos_de_nuestros_clientes">
+                        Algunos de nuestros clientes
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-11 col-md-10 col-centered">
+                <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2500">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="carousel-col">
+                                <div class="img-responsive">
+                                    <img src="./imagenes/clientes/Logo-02.png" id="imagenes_clientes">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carousel-col">
+                                <div class="img-responsive">
+                                    <img src="./imagenes/clientes/Logo-03.png" id="imagenes_clientes">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-col">
+                                <div class="img-responsive">
+                                    <img src="./imagenes/clientes/Logo-04.png" id="imagenes_clientes">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-col">
+                                <div class="img-responsive">
+                                    <img src="./imagenes/clientes/Logo-05.png" id="imagenes_clientes">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-col">
+                                <div class="img-responsive">
+                                    <img src="./imagenes/clientes/Logo-06.png" id="imagenes_clientes">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-col">
+                                <div class="img-responsive">
+                                    <img src="./imagenes/clientes/Logo-07.png" id="imagenes_clientes">
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-08.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-09.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-10.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-11.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-12.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-13.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-14.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-15.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-16.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-17.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-18.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-19.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-20.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-21.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-22.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-23.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-24.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="img-responsive">
+                                        <img src="./imagenes/clientes/Logo-25.png" id="imagenes_clientes">
+                                    </div>
+                                </div>
+                            </div>-->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--aquí finalizan el carrusel de imagenes de los clientes-->
+
+    <!--Aqui inician el contenedor de como funciona-->
+    <br><br>
+    <div class="row">
+        <center>
+            <p id="texto_como_funcionamos">¿C&oacute;mo funcionamos?</p>
+            <div class="col-md-4">
+                <img src="imagenes/paso1.png" class="imagenes_pasos">
+                <div class="contenedor_pasos"> <br>
+                    <p>Nos contactas por teléfono, Chat, Whatsapp, Hangouts, Correo Electrónico o Skype.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="imagenes/paso2.png" class="imagenes_pasos">
+                <div class="contenedor_pasos"> <br>
+                    <p>Un agente de soporte te asigna un ticket y te ayuda conectandose a tu equipo.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="imagenes/paso3.png" class="imagenes_pasos">
+                <div class="contenedor_pasos" > <br>
+                    <p id="contenedor_pasos_ancla">Damos una solución efectiva a tu problema, calificas nuestro servicio y archivamos el requerimiento.</p>
+                </div>
+            </div>
+        </center>
+    </div>
+    <!--Aqui finaliza el contenedor de como funciona-->
+
+    <!--aquí inicia el Portafolio-->
+    <!--Este es el titulo de el portafolio-->
+    <div class="row">
+        <div class="col-md-12">
+            <center>
+                <div id="titulo_servicios">Servicios</div>
+            </center>
+        </div>
+    </div>
+    <!--Fin del titulo de el portafolio-->
+
+
+    <!--aquí inicia el pórtafolio de vigilancia y defensa judicial-->
+    <div id="block_contadores">
+        <div class="row">
+            <div id="padding_portafolio">
+                <div class="col-md-1">
+                    <div id="vacio"></div>
+                </div>
+                <div class="col-md-2">
+                    <center> <img src="imagenes/Vigilancia.png" class="imagenes_principales_de_soporte"></center>
+                </div>
+                <div class="col-md-2">
+                    <div id="div_vigilancia">
+                        <p id="texto_soporte_conexion">Soporte </p>
+                        <p id="texto_tipo_soporte">En sitio</p>
+                        <p id="parrafo_tipo_soporte">Con personal capacitado en el<br>lugar en que lo necesitas.</p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div id="linea_portafolio"></div>
+                </div>
+                <div class="col-md-2">
+                    <div id="div_defensa">
+                        <p id="texto_soporte_conexion">Conexión y </p>
+                        <p id="texto_tipo_soporte">Soporte remoto</p>
+                        <p id="parrafo_tipo_soporte">siempre dispuestos a escuchar<br>y solucionar cualquier problema<br>que tengas.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <center> <img src="imagenes/defensa.png" class="imagenes_principales_de_soporte" id="imagen_conexion_remota"></center>
+                </div>
+                <div class="col-md-1">
+                    <div id="vacio"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--aquí finaliza el portafolio de vigilancia y defensa judicial-->
+    <br><br>
+    <!--aquí inicia el portafolio de varios contenedores 1-->
+    <div id="contenedor_total_portafolio_1">
+        <div class="row">
+            <div class="col-md-1">
+                <div class="contenedor_imagenes_portafolio">
+                    <img src="imagenes/imagenes_portafolio/migracion.png" class="imagenes_contenedor_portafolio_1">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="block_portafolio">
+                    <p class="titulos_portafolio">MIGRACIÓN</p>
+                    <p class="subtitulos_contenedor_portafolio_1">Y ADMINISTRACION</p>
+                    <p class="textos_contenedor_portafolio_1">Configuramos tus nuevos servidores <br>para reemplazar tus <br>viejos equipos.</p>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div class="contenedor_imagenes_portafolio">
+                    <img src="imagenes/imagenes_portafolio/servicio_nube.png" class="imagenes_contenedor_portafolio_1">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="block_portafolio">
+
+                    <p class="titulos_portafolio">SERVICIOS</p>
+                    <p class="subtitulos_contenedor_portafolio_1">EN NUBE</p>
+                    <p class="textos_contenedor_portafolio_1">Accede de forma rápida y<br>segura, a tu información <br>y datos online.</p>
+
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div class="contenedor_imagenes_portafolio">
+                    <img src="imagenes/imagenes_portafolio/backups.png" class="imagenes_contenedor_portafolio_1">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="block_portafolio">
+
+                    <p class="titulos_portafolio">BACKUPS</p>
+                    <p class="subtitulos_contenedor_portafolio_1">DE INFORMACIÓN</p>
+                    <p class="textos_contenedor_portafolio_1">Programamos tus Backups de<br>forma selectiva y automatizada.</p>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div class="contenedor_imagenes_portafolio">
+                    <img src="imagenes/imagenes_portafolio/correo.png" class="imagenes_contenedor_portafolio_1">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="block_portafolio">
+                    <p class="titulos_portafolio">CONFIGURACIÓN</p>
+                    <p class="subtitulos_contenedor_portafolio_1">DE CORREOS</p>
+                    <p class="textos_contenedor_portafolio_1">Configuramos tus correos<br> y revisamos correos<br>electrónicos dudosos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--aquí finaliza el portafolio de varios contenedores 1-->
+
+
+
+    <!--aquí inicia el portafolio de varios contenedores 2-->
+    <div class="row">
+        <div class="col-md-1">
+            <div class="contenedor_imagenes_portafolio">
+                <img src="imagenes/imagenes_portafolio/preguntas.png" class="imagenes_contenedor_portafolio_1">
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="block_portafolio">
+                <p class="titulos_portafolio">SOLUCIÓN</p>
+                <p class="subtitulos_contenedor_portafolio_1">A PREGUNTAS</p>
+                <p class="textos_contenedor_portafolio_1">Resolvemos tus dudas en el<br>momento en que lo necesites.</p>
+
+            </div>
+        </div>
+        <div class="col-md-1">
+            <div class="contenedor_imagenes_portafolio">
+                <img src="imagenes/imagenes_portafolio/malware.png" class="imagenes_contenedor_portafolio_1">
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="block_portafolio">
+
+                <p class="titulos_portafolio">CONFIGURACIÓN</p>
+                <p class="subtitulos_contenedor_portafolio_1">ANTIVIRUS Y FIREWALL</p>
+                <p class="textos_contenedor_portafolio_1">Te ayudamos con herramientas vitales<br>para la protección de tus equipos.</p>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <div class="contenedor_imagenes_portafolio">
+                <img src="imagenes/imagenes_portafolio/pgweb.png" class="imagenes_contenedor_portafolio_1">
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="block_portafolio">
+
+                <p class="titulos_portafolio">DESARROLLO</p>
+                <p class="subtitulos_contenedor_portafolio_1">PAGINAS WEB</p>
+                <p class="textos_contenedor_portafolio_1">Incrementa tus ventas con soluciones<br> integrales para tu negocio.</p>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <div class="contenedor_imagenes_portafolio">
+                <img src="imagenes/imagenes_portafolio/camaras.png" class="imagenes_contenedor_portafolio_1">
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="block_portafolio">
+                <p class="titulos_portafolio">CAMARAS CCTV </p>
+                <p class="subtitulos_contenedor_portafolio_1">Y TELEFONIA IP</p>
+                <p class="textos_contenedor_portafolio_1">Controla tu empresa o<br>negocio desde tu celular.</p>
+            </div>
+        </div>
+    </div>
+    <!--aquí finaliza el portafolio de varios contenedores 1-->
+    <!--aquí finaliza el portafolio-->
+    <!--Inicio de div de efecto paralax del boton para descargar la el archivo pdf de la cobertura-->
+    <br><br>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="imagen_contacto" data-toggle="modal" data-target="#myModal1">
+                <div id="imagen_contacto">
+                    <center>
+                        <br><br>
+                        <p id="texto_contacto">Haga click aqui para solicitar nuestros servicios</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin de div de efecto paralax del boton para descargar la el archivo pdf de la cobertura-->
+
+   
+    <!--Desde aquí inicia el contenido de la ventana modal de cotizacion-->
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal1" role="dialog">
+            <div class="modal-dialog1">
+
+                <!-- Modal content-->
+                <div class="modal-content1">
+                    <!--cabezera de modal de cotizacion-->
+                    <div class="modal-header1">
+
+                        <div id="contenedor_del_titulo_de_la_cotizacion">
+                            <button type="button" id="boton_cerrar"><img src="imagenes/cerrar.png" class="close"  id="imagen_cerrar" data-dismiss="modal"></button>
+                            <p id="texto_podemos_crear">Podemos crear proyectos a su medida.</p>
+                            <p id="texto_solicitud_de_servicios">Solicite nuestros servicios.</p>
+                        </div>
+                    </div>
+                    <!--cuerpo de modal de cotizacion-->
+                    <div class="modal-body1">
+                        <form method="POST" action="enviar_correo.php" onsubmit="return defaultagree(this)">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div id="div_texto_diligencie">
+                                        <div id="alinear_a_la_izquierda">
+                                            <p id="texto_diligencie">Diligencie los siguientes campos <br> para solicitar los servicios <br> de SoportesVirtuales.com</p>
+                                        </div>
+                                        <input id="input_solicitud" type="text" name="nombre" required autofocus placeholder="Nombre" /><br />
+                                        <input id="input_solicitud" type="email" name="correo" required placeholder="Correo electrónico" /><br />
+                                        <input id="input_solicitud" type="number" name="telefono" placeholder="Telefono de contacto" /><br /><br><br>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <div id="div_texto_seleccione_servicios">
+
+                                        <p id="texto_seleccione">Seleccione los servicios de su interes</p>
+                                        <div id="selectores">
+                                            <!--aquí inician los selectores de los servicios de SV-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div id="div_selector">
+                                                        <!--aquí inician los selectores de los servicios de SV del contenedor 1-->
+                                                        <input type="checkbox" id="check" name="check[]" value="Soporte a equipos de computo." />
+                                                        <label for="check">
+                                                        <span><!-- aquí se va crear el elemento checkbox--></span>Soporte a equipos de computo.
+                                                    </label>
+                                                        <br>
+                                                        <input type="checkbox" id="check_1" name="check[]" value="Instalacion de redes." />
+                                                        <label for="check_1">
+                                                        <span><!-- aquí se va crear el elemento checkbox--> </span>Instalacion de redes.
+                                                    </label>
+                                                        <br>
+                                                        <input type="checkbox" id="check_2" name="check[]" value="Configuracion y mantenimiento de correos electronicos." />
+                                                        <label for="check_2">
+                                                        <span><!--aquí se va crear el elemento checkbox--> </span>Configuracion y mantenimiento de correos electronicos.
+                                                    </label>
+                                                        <br>
+                                                        <input type="checkbox" id="check_3" name="check[]" value="Copia de seguridad de informacion en nube." />
+                                                        <label for="check_3">
+                                                        <span><!-- aquí se va crear el elemento checkbox --></span>Copia de seguridad de informacion en nube.
+                                                    </label>
+                                                        <br>
+                                                        <input type="checkbox" id="check_4" name="check[]" value="Soporte y mantenimiento de paginas WEB." />
+                                                        <label for="check_4">
+                                                            <span><!-- aquí se va crear el elemento checkbox--> </span>Soporte y mantenimiento de páginas WEB.
+                                                    </label>
+                                                        <br>
+                                                    </div>
+                                                    <!--aquí finalizan los selectores de los servicios de SV del contenedor 1-->
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <!--aquí inician los selectores de los servicios de SV del contenedor 2-->
+                                                    <div id="div_selector_2">
+                                                        <input type="checkbox" id="check_5" name="check[]" value="Instalacion de camaras de seguridad." />
+                                                        <label for="check_5">
+                                                        <span><!-- aquí se va crear el elemento checkbox--> </span>Instalacion de camaras de seguridad.
+                                                    </label>
+                                                        <br>
+                                                        <input type="checkbox" id="check_6" name="check[]" value="Actualizaciones de aplicaciones." />
+                                                        <label for="check_6">
+                                                        <span><!--aquí se va crear el elemento checkbox --></span>Actualizaciones de aplicaciones.
+                                                     </label>
+                                                        <br>
+                                                        <input type="checkbox" id="check_7" name="check[]" value="Instalacion y configuracion de cualquier dispositivo." />
+                                                        <label for="check_7">
+                                                         <span><!-- aquí se va crear el elemento checkbox --></span>Instalacion y configuracion de cualquier dispositivo.
+                                                    </label>
+                                                        <br>
+                                                        <input type="checkbox" id="check_8" name="check[]" value="Telefonia IP." />
+                                                        <label for="check_8">
+                                                             <span><!-- aquí se va crear el elemento checkbox --></span>Telefonia IP.
+                                                    </label>
+                                                        <br>
+                                                        <input type="checkbox" id="check_9" name="check[]" value="Asesoria" />
+                                                        <label for="check_9">
+                                                            <span><!-- aquí se va crear el elemento checkbox --></span>Asesoria.
+                                                    </label>
+                                                        <br>
+                                                    </div>
+                                                    <!--aquí finalizan los selectores de los servicios de SV del contenedor 2-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--aquí finalizan los selectores de los servicios de SV-->
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <center>
+                                <!--Inicio Comentarios-->
+                                <div>
+                                    <p id="texto_seleccione">Comentarios</p>
+                                    <textarea name="comentario" id="textarea_municipios" required placeholder="Escriba aquí comentarios sobre la solicitud de servicios."></textarea>
+                                </div>
+                                <!--Fin Comentarios-->
+
+                               
+                                <input type="checkbox" id="check_10" onclick="agreesubmit(this)"  name="check[]" value="Autoriza" required />
+                                <label for="check_10">
+                                                            <span><!-- aquí se va crear el elemento checkbox --></span>Autoriza a SoportesVirtuales.com  para enviarle  información  y promociones de servicios (Obligatorio). 
+                                                    </label>
+
+
+                                <!--aquí inicia el boton para enviar el formulario de cotizacion-->
+                                <input type="submit" disabled="disabled" id="input_submit_solicitud" value="Solicitar servicios">
+                                <!--aquí finaliza el boton para enviar el formulario de cotizacion-->
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Hasta llega el contenido de la ventana modal de cotizacion-->
+
+
+    <!--aquí inicia el contenedor de contacto-->
+    <div class="row">
+        <div class="col-md-3">
+            <div id="contenedor_visitanos_en">
+                <p>Contactenos</p>
+            </div>
+        </div>
+        <div id="padding_contacto">
+            <div class="col-md-1">
+                <div class="imagenes_contacto">
+                    <img src="imagenes/Phone.png">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <p class="texto_ciudades">+57 313-8503-476 <br>+57 323-2219-857</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="imagenes_contacto">
+                    <img src="imagenes/icono_correo.png">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <p class="texto_ciudades">servicioalcliente@soportesvirtuales.com <br>ventas@soportesvirtuales.com</p>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+ 
+    <center>
+        <p class="titulos_portafolio">www.SoportesVirtuales.com</p>
+    </center>
+    <!--aquí finaliza el contenedor de contacto-->
+    <!--Inicio de js-->
+    <script src="./js/scripts_globales.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!--Fin de js-->
+</body>
+
+</html>

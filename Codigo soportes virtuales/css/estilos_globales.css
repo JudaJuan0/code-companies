@@ -1,0 +1,815 @@
+#imagen_cargando {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+#imagen_logo_header {
+    width: 163px;
+    height: auto;
+    margin-top: -10px;
+    padding-left: 70px;
+}
+
+
+/*Desde aqui inician los estilos para el contenedor de pasos*/
+
+#texto_como_funcionamos {
+    font-size: 2.5vw;
+    font-weight: 800;
+    color: #4d5e86;
+}
+
+.imagenes_pasos {
+    width: 50%;
+    height: auto;
+}
+
+.contenedor_pasos {
+    padding: 0px 54px;
+    font-size: 1.5vw;
+}
+
+
+/*Aqui finalizan los estilos para el contenedor de pasos*/
+
+
+/*Esto es para quitarle las flechitas*/
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/*Desde aqui inician los estilos de las redes sociales*/
+
+#logos_redes_sociales {
+    font-size: 40px;
+    margin: 11px;
+    color: #4d5e86;
+    text-decoration: none;
+}
+
+#logos_redes_sociales:hover {
+    color: rgba(255, 255, 255, 0.48);
+}
+
+#redes_sociales {
+    background-color: rgba(209, 209, 209, 0.61);
+    width: 100%;
+    height: auto;
+    /* margin-top: -32px; */
+    margin-top: -62px;
+    text-align: center;
+}
+
+
+/*Aqui finalizan los estilos de las redes sociales*/
+
+
+/*Desde aqui inician los estilos de la imagen principal*/
+
+#imagen_principal {
+    width: 100%;
+    height: 49vw;
+}
+
+
+/*Aqui finaliza los estilos de la imagen principal*/
+
+
+/*Desde aqui inician los estilos para el texto que va encima de la imagen pricipal*/
+
+#div_texto_imagen_principal {
+    text-align: center;
+    margin: -33% auto;
+    color: #fff;
+}
+
+#div_texto_principal {
+    font-size: 5vw;
+    font-family: Arial;
+    font-weight: 800;
+    color: #04649e;
+}
+
+#texto_confie {
+    font-size: 1.6vw;
+}
+
+
+/*Aqui finalizan los estilos para el texto que va encima de la imagen pricipal*/
+
+
+/*Desde aqui inician los estilos para los efectos 3d de los divs*/
+
+.block {
+    background-color: #eef4fa;
+    text-align: center;
+    height: 0%;
+}
+
+.block_con_comillas {
+    background-color: #647396;
+    text-align: center;
+    height: 0%;
+}
+
+#block {
+    background-color: #eef4fa;
+    margin-top: -2px;
+}
+
+#block_con_comillas {
+    background-color: #647396;
+}
+
+#block_contadores {
+    background-color: #eef4fa;
+}
+
+.block_portafolio {
+    text-align: left;
+    margin-left: -16%;
+}
+
+
+/*Aqui finalizan los estilos para los efectos 3d de los divs*/
+
+
+/*desde aqui inician las animaciones*/
+
+
+/*Aqui finalizan las animaciones*/
+
+
+/*Desde aqui inician los estilos del contenedor de que es litigando*/
+
+#que_es_sv_1 {
+    background-color: #eef4fa;
+    padding: 20px 50px 83px 50px;
+}
+
+#que_es_sv_2 {
+    background-color: #dae7f4;
+    padding: 20px 50px 83px 50px;
+}
+
+.titulo_mision_vision {
+    color: #a2c3e4;
+    font-size: 2.5vw;
+    font-weight: 900;
+}
+
+.texto_mision_vision {
+    color: #4d5e86;
+    font-size: 1.2vw;
+}
+
+#div_que_es_litigando_contenedor_1 {
+    color: #a9a4a4;
+    padding-top: 4%;
+    padding-bottom: 3.5%;
+    font-family: arial;
+}
+
+#div_que_es_litigando_contenedor_2 {
+    background-color: #647396;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: arial;
+    color: #fff;
+}
+
+#linea_rosita {
+    width: 23%;
+    background-color: #fff;
+    height: 2px;
+    margin-left: 38%;
+}
+
+#nombre_rosita {
+    font-family: 'Inknut Antiqua', serif;
+    position: relative;
+    top: 12px;
+}
+
+#texto_gerente_general {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+#imagen_abrir_comillas {
+    width: 1vw;
+    position: absolute;
+    right: 67%;
+    top: 8%;
+}
+
+#imagen_cerrar_comillas {
+    width: 1vw;
+    position: absolute;
+    right: 35%;
+    top: 38%;
+}
+
+
+/*Aqui finalizan los estilos del contenedor de que es litigando*/
+
+
+/*Aqui inician los estilos de el contenedor de la cobertura*/
+
+#texto_contacto {
+    font-size: 2.8vw;
+    font-weight: 800;
+    color: #fff;
+}
+
+#imagen_contacto {
+    background-image: url("../imagenes/imagen_estatica.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 11vw;
+    cursor: pointer;
+}
+
+
+/*Aqui finalizan los estilos del contenedor de la cobertura*/
+
+
+/*Desde aqui inician los estilos para los contadores*/
+
+#linea {
+    background-color: #4d5e86;
+    width: 40%;
+    height: 6px;
+}
+
+#vacio {
+    color: #eef4fa;
+    height: 1px;
+}
+
+#imagen_carta {
+    width: 80%;
+    height: auto;
+    margin-right: 19%;
+}
+
+
+/*Aqui finalizan los estilos para los contadores*/
+
+
+/*Aqui inician los estilos para el carrusel de las imagenes*/
+
+#texto_algunos_de_nuestros_clientes {
+    font-size: 1.2vw;
+    padding: 0.4%;
+    color: #4d5e86;
+}
+
+#imagenes_clientes {
+    width: 75%;
+    height: auto;
+}
+
+
+/*--------------------------*/
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.carousel-control {
+    width: 8%;
+    width: 0px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    margin-right: 40px;
+    margin-left: 32px;
+    background-image: none;
+    opacity: 1;
+}
+
+.carousel-control>a>span {
+    color: white;
+    font-size: 29px !important;
+}
+
+.carousel-col {
+    position: relative;
+    min-height: 1px;
+    padding-left: 82px;
+    float: left;
+    margin-top: 0%;
+}
+
+.active>div {
+    display: none;
+}
+
+.active>div:first-child {
+    display: block;
+}
+
+
+/*xs*/
+
+@media (max-width: 767px) {
+    .carousel-inner .active.left {
+        left: -50%;
+    }
+    .carousel-inner .active.right {
+        left: 50%;
+    }
+    .carousel-inner .next {
+        left: 50%;
+    }
+    .carousel-inner .prev {
+        left: -50%;
+    }
+    .carousel-col {
+        width: 50%;
+    }
+    .active>div:first-child+div {
+        display: block;
+    }
+}
+
+
+/*sm*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-inner .active.left {
+        left: -50%;
+    }
+    .carousel-inner .active.right {
+        left: 50%;
+    }
+    .carousel-inner .next {
+        left: 50%;
+    }
+    .carousel-inner .prev {
+        left: -50%;
+    }
+    .carousel-col {
+        width: 50%;
+    }
+    .active>div:first-child+div {
+        display: block;
+    }
+}
+
+
+/*md*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .carousel-inner .active.left {
+        left: -33%;
+    }
+    .carousel-inner .active.right {
+        left: 33%;
+    }
+    .carousel-inner .next {
+        left: 33%;
+    }
+    .carousel-inner .prev {
+        left: -33%;
+    }
+    .carousel-col {
+        width: 33%;
+    }
+    .active>div:first-child+div {
+        display: block;
+    }
+    .active>div:first-child+div+div {
+        display: block;
+    }
+}
+
+
+/*lg*/
+
+@media (min-width: 1200px) {
+    .carousel-inner .active.left {
+        left: -25%;
+    }
+    .carousel-inner .active.right {
+        left: 25%;
+    }
+    .carousel-inner .next {
+        left: 25%;
+    }
+    .carousel-inner .prev {
+        left: -25%;
+    }
+    .carousel-col {
+        width: 25%;
+    }
+    .active>div:first-child+div {
+        display: block;
+    }
+    .active>div:first-child+div+div {
+        display: block;
+    }
+    .active>div:first-child+div+div+div {
+        display: block;
+    }
+}
+
+
+/*Aqui finalizan los estilos para el carrusel de las imagenes*/
+
+
+/*Desde aqui inician los estilos del portafolio*/
+
+#titulo_servicios {
+    font-size: 4vw;
+    padding-bottom: 2%;
+    color: #4d5e86;
+    font-weight: 600;
+}
+
+#contenedor_total_portafolio_1 {
+    padding-bottom: 1%;
+}
+
+#texto_soporte_conexion {
+    font-size: 2vw;
+    padding: 1%;
+    color: #4d5e86;
+    font-weight: 800;
+}
+
+#div_vigilancia {
+    padding-top: 15px;
+}
+
+#texto_tipo_soporte {
+    font-size: 2vw;
+    margin-top: -8%;
+    color: #4d5e86;
+}
+
+#div_defensa {
+    text-align: right;
+    padding-top: 15px;
+}
+
+#imagen_conexion_remota {
+    margin-left: -31%;
+}
+
+#parrafo_tipo_soporte {
+    color: #4d5e86;
+    font-size: 1vw;
+}
+
+#padding_portafolio {
+    padding-top: 0%;
+    padding-bottom: 12.5%;
+}
+
+#linea_portafolio {
+    width: 20%;
+    background-color: #dae7f4;
+    margin-left: auto;
+    margin-right: auto;
+    height: 13vw;
+}
+
+.imagenes_principales_de_soporte {
+    width: 44%;
+    margin-top: 12%;
+    margin-left: 32%;
+}
+
+.titulos_portafolio {
+    color: #4d5e86;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.subtitulos_contenedor_portafolio_1 {
+    color: #4d5e86;
+    font-size: 1.4vw;
+    margin-top: -4%;
+}
+
+.imagenes_contenedor_portafolio_1 {
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.textos_contenedor_portafolio_1 {
+    color: #4d5e86;
+    font-size: 0.9vw;
+}
+
+
+/*Aqui finalizan los estilos del portafolio*/
+
+
+/*Desde aqui inician los estilos de la ventana modal del inicio de sesion*/
+
+#ventana_modal1 {
+    text-align: center;
+    margin-top: 6%;
+}
+
+::-webkit-input-placeholder {
+    color: #59688e;
+}
+
+#boton_cerrar {
+    float: right;
+    border: none;
+    background-color: transparent;
+}
+
+
+/*Aqui finalizan los estilos de la ventana modal del inicio de sesion*/
+
+
+/*Desde aqui inician los estilos de la ventana modal de la cotizacion*/
+
+#contenedor_del_titulo_de_la_cotizacion {
+    width: 100%;
+    background-color: #aac8e6;
+}
+
+#texto_podemos_crear {
+    font-size: 3vw;
+    color: #fff;
+    padding-left: 3%;
+}
+
+#texto_solicitud_de_servicios {
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -3%;
+    padding-left: 3%;
+}
+
+#div_texto_diligencie {
+    background-color: #e6eff8;
+    color: #59688e;
+    text-align: center;
+    height: 0%;
+}
+
+#texto_diligencie {
+    font-size: 1vw;
+    /*padding-top: 30%;*/
+    font-weight: 600;
+    padding-left: 19%;
+    margin: 0px;
+    padding-top: 19px;
+}
+
+#texto_seleccione {
+    font-size: 1.2vw;
+    color: #59688e;
+    font-weight: 600;
+}
+
+#input_solicitud {
+    width: 64%;
+    height: 41px;
+    border-radius: 9px;
+    border: 1px solid #59688e;
+    margin-top: 18px;
+    padding: 19px;
+}
+
+#input_cantidad {
+    width: 85%;
+    height: 41px;
+    border-radius: 9px;
+    border: 1px solid #59688e;
+    padding: 19px;
+}
+
+#textarea_municipios {
+    max-width: 85% !important;
+    max-height: 9vw !important;
+    min-width: 85% !important;
+    min-height: 9vw !important;
+    border-radius: 9px;
+    border: 1px solid #59688e;
+    padding: 9px;
+}
+
+#div_texto_seleccione_servicios {
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
+#input_submit_solicitud {
+    height: 2.5vw;
+    /*background-color: #6a789b;*/
+    background-color: #a3b1d2;
+    color: #fff;
+    border: 0px solid #6a789b;
+    border-radius: 6px;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    width: 30%;
+}
+
+#alinear_a_la_izquierda {
+    text-align: left;
+}
+
+
+/*Desde aqui inician los estilos para los check box*/
+
+label {
+    display: inline-block;
+    color: #627195;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 1.2vw;
+    padding-top: 1%;
+    width: 88%;
+}
+
+#check_box_autorizo {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    transform-origin: center;
+    border: 0px solid #e6eff8;
+    border-radius: 50%;
+    vertical-align: -6px;
+    margin-right: 10px;
+    transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+}
+
+label span {
+    display: inline-block;
+    position: relative;
+    background-color: #e6eff8;
+    width: 25px;
+    height: 25px;
+    transform-origin: center;
+    border: 0px solid #fff;
+    border-radius: 50%;
+    vertical-align: -6px;
+    margin-right: 10px;
+    transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+}
+
+label span:before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    border-radius: 2px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 13px;
+    left: 9px;
+    transition: width 50ms ease 50ms;
+    transform-origin: 0% 0%;
+}
+
+label span:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(305deg);
+    top: 16px;
+    left: 10px;
+    transition: width 50ms ease;
+    transform-origin: 0% 0%;
+}
+
+label:hover span:before {
+    width: 5px;
+    transition: width 100ms ease;
+}
+
+label:hover span:after {
+    width: 10px;
+    transition: width 150ms ease 100ms;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked+label span {
+    background-color: #aac8e6;
+    ;
+    transform: scale(1.25);
+}
+
+input[type="checkbox"]:checked+label span:after {
+    width: 10px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+}
+
+input[type="checkbox"]:checked+label span:before {
+    width: 5px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+}
+
+input[type="checkbox"]:checked+label:hover span {
+    background-color: #aac8e6;
+    transform: scale(1.25);
+}
+
+input[type="checkbox"]:checked+label:hover span:after {
+    width: 10px;
+    background: #627195;
+    transition: width 150ms ease 100ms;
+}
+
+input[type="checkbox"]:checked+label:hover span:before {
+    width: 5px;
+    background: #627195;
+    transition: width 150ms ease 100ms;
+}
+
+
+/*Aqui finalizan los estilos para los check box*/
+
+
+/*Aqui finalizan los estilos de la ventana modal de la cotizacion*/
+
+
+/*Aqui inician los estilos del mapa*/
+
+.imagenes_contacto {
+    text-align: right;
+}
+
+#padding_contacto {
+    padding: 29px 0px;
+}
+
+#contenedor_visitanos_en {
+    background-color: #7a86a4;
+    color: #fff;
+    height: 7.5vw;
+    padding-top: 8%;
+    padding-bottom: 6%;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.texto_ciudades {
+    font-weight: 600;
+    color: #42547f;
+    font-size: 1.5vw;
+    border-radius: 9px;
+    text-align: left;
+    height: 3vw;
+    cursor: pointer;
+    padding-left: 5%;
+}
+
+#text_align_right_imagen_location {
+    text-align: right;
+    margin-right: 18%;
+}
+
+#imagen_cotizacion {
+    background-image: url("../imagenes/Fondo-Cotizacion.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 11vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+
+/*Aqui finalizan los estilos  del mapa*/
+
+
+/*copmpatibilidad de navegadores*/

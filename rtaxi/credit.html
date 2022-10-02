@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rtaxi en linea</title>
+    <meta name="description" content="">
+    <meta name="author" content="Juan :v">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,800&amp;display=swap">
+    <!-- Device Mockup-->
+    <link rel="stylesheet" href="css/style-default.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+
+<body class="change-content">
+
+    <!-- Loading -->
+    <div class="loading">
+        Por favor espere <br> un momento....
+    </div>
+    <!-- Enviado correctamente -->
+    <div class="send-success">
+        <img src="images/logo-credi-prosperar.png" alt="logo enviado correctamente" class="logo-modal-credit">
+        <h2 class="p-4"><b>¡GRACIAS POR DEJARNOS SUS DATOS!</b></h2>
+
+        <h3 class="p-4 sub-title-modal">Un asesor se comunicará con usted para brindarle información completa sobre su solicitud.</h3>
+
+        <img src="images/img-form-taxi.png" alt="" class="img-modal">
+    </div>
+
+    <!-- button whattsapp float -->
+    <ul class="list-inline mb-0 btns-scroll">
+        <li class="list-inline-item mb-2 mb-lg-0">
+            <a class="btn-scroll" href="#"> <i class="fas fa-angle-up"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-whattsapp" target="_blank" href="https://wa.me/+573203888888?text=Buen día. %0A ¡Hola, estoy interesad@ en recibir más información sobre CREDIPROSPERAR!">
+                <i class="fab fa-whatsapp "></i>
+            </a>
+        </li>
+    </ul>
+
+
+    <!-- Header -->
+    <header class="header-credit">
+        <div class="container">
+
+            <a class="navbar-brand w-200px" href="#"><img src="images/logo-credi-prosperar.png" alt="" width="110"></a>
+            <div class="title-header-credit">
+
+                <b class="text-right">SOLICITE SU CRÉDITO AHORA</b>
+            </div>
+        </div>
+
+    </header>
+    <!-- Section Form -->
+    <section>
+        <div class="row container-form w-100">
+            <div class="col-lg-7 px-5 pt-100">
+                <div class="container px-5">
+                    <b class="title-section-form">¿QUÉ ES CREDIPROSPERAR?</b>
+                    <p class="text-form-credit">Somos una Generadora de Créditos para el gremio de TAXISTAS con una experiencia de más de 7 años, financiando vehículos NUEVOS Y USADOS. Conocedores de las necesidades de nuestros clientes y con un compromiso social ayudamos a realizar
+                        los sueños de los conductores de ser propietarios de su primer taxi.
+                    </p>
+                    <img src="images/img-form-person.png" alt="image-person" class="img-form-credit">
+                </div>
+            </div>
+            <div class="col-lg-4 py-5 formulario">
+                <div class="checks-change py-5">
+                    <ul class="ul-btns-changes">
+                        <li>
+                            <label class="control control-radio">
+                                Tengo un vehículo
+                                    <input type="radio"id="conductores" name="change-page"  />
+                                <div class="control_indicator"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="control control-radio">
+                                Necesito un vehículo
+                                    <input type="radio"id="need" name="change-page"  checked/>
+                                <div class="control_indicator"></div>
+                            </label>
+                        </li>
+                    </ul>
+                    <!-- Inicio formulario -->
+                    <form id="correos-crediprosperar" method="POST">
+                        <div class="row">
+                            <div class="col-lg-12 ">
+                                <label for="name" class="label-form"> Nombre</label>
+                                <input class="Field" type="text" name="name" id="name" required autocomplete="off" />
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-lg-12 ">
+                                <label for="last-name" class="label-form"> Apellidos</label>
+                                <input class="Field" type="text" name="last_name" id="last-name" required autocomplete="off" />
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-lg-5">
+                                <label for="years" class="label-form"> Edad</label>
+                                <input class="Field" type="number" name="years" id="years" required autocomplete="off" />
+                            </div>
+                            <div class="col-lg-7">
+                                <label for="cc" class="label-form"> Cédula</label>
+                                <input class="Field" type="number" name="cc" id="cc" required autocomplete="off" />
+                            </div>
+                        </div>
+
+                        <div class="row py-2">
+                            <div class="col-lg-12 ">
+                                <label for="email" class="label-form"> Dirección de E-mail </label>
+                                <input class="Field" type="email" name="email" id="email" required autocomplete="off" />
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-lg-12 ">
+                                <label for="phone" class="label-form"> Número de Teléfono</label>
+                                <input class="Field" type="number" name="phone" id="phone" required autocomplete="off" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 text-left">
+                                <p class="terminos">
+                                    Al continuar, acepto las condiciones de uso de RTaxi y reconozco haber leído su política de privacidad. <br>También acepto que RTaxi o sus representantes puedan contactar conmigo por email, teléfono o SMS (así como
+                                    a través de medios automatizados) a través del email o del teléfono que he indicado, incluso con fines promocionales
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <button type="submit" class="btn-correos "> SOLICITAR CRÉDITO</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <p class="text-btn-credit">*Aplica solo para la ciudad de Bogotá.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section title red -->
+    <section class="py-5">
+        <div class="section-yellow">
+            <b>¿VENTAJAS DE TRAMITAR UN CRÉDITO CON NOSOTROS?</b>
+        </div>
+        <div class="row m-0">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4 p-5 text-center">
+                <img src="images/icon-en-el-blanco.png" alt="" class="icon-in-blanco">
+            </div>
+            <div class="col-lg-6">
+                <table class="table-ventajas px-5">
+                    <tr>
+                        <td>Financiación directa</td>
+                    </tr>
+                    <tr>
+                        <td>Plazo hasta 72 meses</td>
+                    </tr>
+                    <tr>
+                        <td>Tasa desde 1.6% mes vencido</td>
+                    </tr>
+                    <tr>
+                        <td>Cuota y tasa fija durante todo el crédito</td>
+                    </tr>
+                    <tr>
+                        <td>Pre-aprobado en menos de 24 horas</td>
+                    </tr>
+                    <tr>
+                        <td>Estudio de crédito desde 22 años en adelante</td>
+                    </tr>
+                    <tr>
+                        <td>Rápido desembolso</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+
+    </section>
+
+    <!-- section ventajas -->
+    <section class="footer text-center py-5">
+        <div class="px-5 title-section3">
+            <b>¿REQUISITOS PARA OBTENER UN CRÉDITO CON NOSOTROS?</b>
+        </div>
+
+        <div class="row m-0 px-5 py-3">
+            <div class="col-lg-3 px-5">
+                <img src="images/icon-cuota.png" alt="radio" class="img-footer">
+                <p class="title-footer-icons">
+                    TENER LA CUOTA INICIAL
+                </p>
+            </div>
+            <div class="col-lg-3 px-5">
+                <img src="images/icon-no-reportes.png" alt="radio" class="img-footer">
+                <p class="title-footer-icons">
+                    NO ESTAR REPORTADO EN CENTRALES DE RIESGO
+                </p>
+            </div>
+            <div class="col-lg-3 px-5">
+                <img src="images/icon-ingresos.png" alt="radio" class="img-footer">
+                <p class="title-footer-icons">
+                    DEMOSTRAR INGRESOS
+                </p>
+            </div>
+            <div class="col-lg-3 px-5">
+                <img src="images/icon-experiencia.png" alt="radio" class="img-footer">
+                <p class="title-footer-icons">
+                    EXPERIENCIA VIDA CREDITICIA
+                </p>
+            </div>
+    </section>
+    <!-- section checks -->
+    <section>
+        <div class="checks w-100 text-center p-4">
+            <b class="title-section-checks">¡CONTAMOS CON!</b>
+            <div class="row pt-4">
+                <div class="col-lg-4 text-right">
+                    <ul class="list-checks">
+                        <li>
+                            <img src="images/check-yellow.png" alt=""></li>
+                        <li>
+                            <p>Estudio inmediato</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-4">
+                    <ul class="list-checks">
+                        <li>
+                            <img src="images/check-yellow.png" alt=""></li>
+                        <li>
+                            <p>Atención al gremio de taxistas</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-4 text-left">
+                    <ul class="list-checks">
+                        <li>
+                            <img src="images/check-yellow.png" alt=""></li>
+                        <li>
+                            <p>Tasas Fijas y Cuota Fija</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-5 text-right">
+                    <ul class="list-checks">
+                        <li>
+                            <img src="images/check-yellow.png" alt=""></li>
+                        <li>
+                            <p>Pago: Diario y semanal, abono a capita</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-7 text-left">
+                    <ul class="list-checks">
+                        <li>
+                            <img src="images/check-yellow.png" alt=""></li>
+                        <li>
+                            <p>Taxis disponibles de todas la marcas y modelos para financiar</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+    </section>
+    <!-- section Beneficios -->
+    <section class="section-benefit">
+        <div class="row p-4">
+            <div class="col-lg-7 text-right px-5">
+                <b class="title-section-benefit">BENEFICIOS DE TENER 
+                    UN CRÉDITO CON 
+                    CREDIPROSPERAR</b>
+            </div>
+            <div class="col-lg-5 text-left">
+                <ul class="list-benefit">
+                    <li>Posibilidad de pagar su cuota semanal</li>
+                    <li>Financiar taxi desde modelo 2006 adelante</li>
+                    <li>Financiar taxi por REPOSICIÓN sin IVA</li>
+                    <li>Sin intermediarios</li>
+                    <li>No cobramos estudio de crédito</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Section whattsapp -->
+    <section>
+        <div class="section-whattsapp-credit text-center">
+            <a class="whattsapp-top-btn " target="_blank" href="https://wa.me/+573203888888?text=Buen día. %0A ¡Hola, estoy interesad@ en recibir más información sobre CREDIPROSPERAR!">
+                <ul class="list-whatsapp-credit">
+                    <li><b>Comuníquese con nosotros para asesorarle</b></li>
+                    <li><i class="fab fa-whatsapp icon-wt"></i></li>
+                    <li><b>320 388 8888</b></li>
+                </ul>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- JavaScript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</body>
+
+</html>

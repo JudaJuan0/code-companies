@@ -1,0 +1,1319 @@
+                    /*------------------------------------------------------------------------------------
+Desde aqui inician los estilos de acuerdo a el ancho de la pantalla
+-------------------------------------------------------------------------------------*/
+                    
+                    @media screen and (max-width: 1808px) {
+                        #contenedor_total_de_contadores {
+                            padding-top: 1%;
+                        }
+                         ::i-block-chrome,
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            font-size: 25px;
+                            height: 52px;
+                            width: 143%;
+                        }
+                         ::i-block-chrome,
+                        #texto_ciudades {
+                            font-size: 25px;
+                            height: 43px;
+                            width: 110%;
+                        }
+                         ::i-block-chrome,
+                        #contenedor_visitanos_en {
+                            height: 102px;
+                            padding-top: 6%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1792px) {
+                        #imagen_abrir_comillas {
+                            top: 8%;
+                            right: 67.8%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 34.5%;
+                            top: 36.8%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1715px) {
+                        #imagen_abrir_comillas {
+                            top: 8.5%;
+                            right: 68.5%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 34%;
+                            top: 37%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1660px) {
+                        #imagen_abrir_comillas {
+                            top: 9%;
+                            right: 69%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 33.5%;
+                            top: 37.5%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1600px) {
+                        #imagen_abrir_comillas {
+                            right: 69.8%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 33%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1530px) {
+                        #contenedor_total_de_imagenes_contadores {
+                            margin-top: -7.5%;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 71%;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            padding-bottom: 4.3%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 32%;
+                            top: 37%;
+                        }
+                         ::i-block-chrome,
+                        #texto_ciudades {
+                            font-size: 20px;
+                        }
+                         ::i-block-chrome,
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            font-size: 20px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1450px) {
+                        #imagen_abrir_comillas {
+                            right: 72%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 31.5%;
+                        }
+                        #imagen_contacto {
+                            height: 12vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1390px) {
+                        #imagen_abrir_comillas {
+                            right: 73%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 30.5%;
+                        }
+                         ::i-block-chrome,
+                        #div_gestion_judicial {
+                            font-size: 61px;
+                        }
+                         ::i-block-chrome,
+                        #texto_confie {
+                            font-size: 19px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1320px) {
+                        #imagen_abrir_comillas {
+                            right: 74%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 29.5%;
+                        }
+                        #texto_algunos_de_nuestros_clientes {
+                            font-size: 1.5vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1262px) {
+                        .navbar-brand {
+                            padding-top: 23px;
+                            padding-left: 61px;
+                            padding-bottom: 23px;
+                            padding-right: 0px;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            padding-bottom: 4.8%;
+                        }
+                        #div_texto_diligencie {
+                            padding-bottom: 26%;
+                        }
+                        #input_cantidad {
+                            height: 34px;
+                            padding: 12px;
+                        }
+                        #texto_seleccione {
+                            font-size: 1.3vw;
+                        }
+                        #input_submit_solicitud {
+                            margin-top: 4%;
+                        }
+                        #input_solicitud {
+                            height: 28px;
+                            padding: 12px;
+                        }
+                        #texto_diligencie {
+                            font-size: 1.2vw;
+                            padding-left: 14%;
+                        }
+                        .navbar-nav {
+                            margin-right: 1% !important;
+                        }
+                        .navbar-nav>li>a {
+                            margin-right: 12px;
+                        }
+                        #logos_redes_sociales {
+                            font-size: 32px;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 29%;
+                            top: 38%;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 75%;
+                        }
+                        #redes_sociales {
+                            margin-top: -54px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1200px) {
+                        #imagen_abrir_comillas {
+                            right: 76%;
+                        }
+                        #imagen_cargando {
+                            margin-top: 4%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 28%;
+                        }
+                        #input_submit_solicitud {
+                            margin-top: 3%;
+                        }
+                         ::i-block-chrome,
+                        #texto_ciudades {
+                            font-size: 16px;
+                            padding-top: 4%;
+                        }
+                         ::i-block-chrome,
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            font-size: 16px;
+                            padding-top: 4%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1167px) {
+                        #imagen_abrir_comillas {
+                            right: 77%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 27.5%;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            padding-top: 4.5%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1129px) {
+                        #imagen_abrir_comillas {
+                            right: 78%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 26%;
+                        }
+                        #imagen_contacto {
+                            height: 13vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1096px) {
+                        #imagen_abrir_comillas {
+                            right: 79%;
+                        }
+                        #contenedor_total_de_imagenes_contadores {
+                            margin-top: -7.8%;
+                        }
+                        .navbar-nav>li>a {
+                            margin-right: -1px;
+                        }
+                        #imagen_logo_header {
+                            margin-left: -35px;
+                        }
+                        #texto_confie {
+                            font-size: 1.8vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1050px) {
+                        #imagen_abrir_comillas {
+                            right: 80%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 25%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1000px) {
+                        #imagen_principal {
+                            margin-top: 26px;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 82%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 23%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 991px) {
+                        #linea_rosita {
+                            margin-top: 21px;
+                        }
+                        .texto_ciudades {
+                            padding-left: 0%;
+                            text-align: center;
+                            padding: 1% 0px 5% 0px;
+                        }
+                        .imagenes_contacto {
+                            text-align: center;
+                        }
+                        .imagenes_pasos {
+                            width: 30%;
+                            height: auto;
+                        }
+                         ::i-block-chrome,
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            margin-top: 1% !important;
+                            padding-top: 1.7% !important;
+                        }
+                         ::i-block-chrome,
+                        #texto_ciudades {
+                            margin-top: 1% !important;
+                            padding-top: 1.2% !important;
+                        }
+                         ::i-block-chrome,
+                        #div_defensa {
+                            left: 0%;
+                        }
+                         ::i-block-chrome,
+                        #texto_soporte_conexion {
+                            margin-top: 1%;
+                        }
+                         ::i-block-chrome,
+                        #imagen_contacto {
+                            height: 240px;
+                        }
+                         ::i-block-chrome,
+                        #texto_contacto {
+                            font-size: 25px;
+                            padding-top: 3px;
+                        }
+                         ::i-block-chrome,
+                        #div_gestion_judicial {
+                            font-size: 42px;
+                        }
+                         ::i-block-chrome,
+                        #texto_confie {
+                            font-size: 12px;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 66%;
+                            top: 11%;
+                        }
+                        #texto_algunos_de_nuestros_clientes {
+                            font-size: 2vw;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 37%;
+                            top: 36%;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            padding-top: 3%;
+                            padding-bottom: 3%;
+                        }
+                        #div_que_es_litigando_contenedor_2 {
+                            padding-top: 18px;
+                        }
+                        /*Desde aqui inician los estilos de los contadores*/
+                        #imagen_carta {
+                            width: 8%;
+                            position: absolute;
+                            margin-top: 4.5%;
+                            right: 50%;
+                        }
+                        #linea {
+                            width: 53%;
+                            height: 5px;
+                        }
+                        /*Aqui finalizan los estilos de los contadores*/
+                        /*Aqui inician los estilos de el portafolio*/
+                        .imagenes_principales_de_soporte {
+                            width: 13%;
+                            margin-top: 3%;
+                            margin-left: 0%;
+                        }
+                        #div_vigilancia {
+                            text-align: center;
+                        }
+                        #texto_soporte_conexion {
+                            font-size: 3vw;
+                            padding: 1%;
+                        }
+                        #texto_tipo_soporte {
+                            font-size: 3vw;
+                            margin-top: -3%;
+                        }
+                        #parrafo_tipo_soporte {
+                            font-size: 1.5vw;
+                        }
+                        #linea_portafolio {
+                            width: 100%;
+                            margin-top: 3%;
+                            height: 5vw;
+                        }
+                        #div_defensa {
+                            text-align: center;
+                            margin-top: 15%;
+                        }
+                        #imagen_conexion_remota {
+                            margin-top: -49%;
+                            margin-left: 0%;
+                        }
+                        #padding_portafolio {
+                            padding-top: 0%;
+                            padding-bottom: 0%;
+                        }
+                        #titulo_servicios {
+                            padding: 4%;
+                        }
+                        .imagenes_contenedor_portafolio_1 {
+                            width: 8%;
+                            position: absolute;
+                            left: 22%;
+                            margin-top: -1%;
+                        }
+                        .subtitulos_contenedor_portafolio_1 {
+                            font-size: 2vw;
+                            margin-top: -1.5%;
+                        }
+                        #contenedor_total_portafolio_1 {
+                            padding-bottom: 0%;
+                            margin-top: -3%;
+                        }
+                        .textos_contenedor_portafolio_1 {
+                            font-size: 1.6vw;
+                            padding-bottom: 4%;
+                        }
+                        .contenedor_imagenes_portafolio {
+                            text-align: center;
+                        }
+                        .block_portafolio {
+                            text-align: center;
+                            margin-left: 0%;
+                        }
+                        /*Aqui finalizan los estilos del portafolio*/
+                        /*Aqui empiezan los estilos de la ventana modal de cotizacion*/
+                        #alinear_a_la_izquierda {
+                            text-align: center;
+                        }
+                        #texto_diligencie {
+                            font-size: 1.5vw;
+                            padding-top: 4%;
+                            padding-left: 0%;
+                        }
+                        #div_texto_diligencie {
+                            padding-bottom: 4%;
+                        }
+                        #selectores {
+                            margin-left: 32%;
+                        }
+                        #texto_seleccione {
+                            font-size: 1.5vw;
+                            text-align: center;
+                            margin-right: 14%;
+                        }
+                        #input_cantidad {
+                            width: 92%;
+                        }
+                        #textarea_municipios {
+                            max-width: 92% !important;
+                            min-width: 92% !important;
+                        }
+                        #input_submit_solicitud {
+                            margin-top: 3%;
+                            margin-bottom: 3%;
+                            margin-left: 31%;
+                            height: 3vw;
+                            font-size: 1.7vw;
+                        }
+                        label {
+                            font-size: 1.5vw;
+                            padding-top: 1.2%;
+                        }
+                        /*Aqui finalizan los estilos de la ventana modal de cotizacion*/
+                        /*Desde aqui inician los estilos para el modulo de contacto*/
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            width: 100%;
+                        }
+                        #contenedor_visitanos_en {
+                            padding-top: 1%;
+                            font-size: 3vw;
+                        }
+                        #texto_ciudades {
+                            margin-top: 1%;
+                            padding-top: 0.5%;
+                        }
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            margin-top: 1%;
+                            padding-top: 0.5%;
+                        }
+                        /*Aqui finalizan los estilos para el modulo de contacto*/
+                    }
+                    
+                    @media screen and (max-width: 959px) {
+                        #imagen_abrir_comillas {
+                            right: 67%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 36%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 900px) {
+                         ::i-block-chrome,
+                        #imagen_conexion_remota {
+                            margin-top: -61%;
+                        }
+                         ::i-block-chrome,
+                        #div_defensa {
+                            margin-top: 20%;
+                        }
+                        #texto_algunos_de_nuestros_clientes {
+                            padding: 2%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 36%;
+                            top: 37%;
+                        }
+                        .navbar-brand {
+                            padding-top: 23px;
+                            padding-left: 65px;
+                            padding-bottom: 23px;
+                            padding-right: 0px;
+                        }
+                        .navbar-nav>li>a {
+                            margin-right: -11px;
+                            font-size: 17px;
+                        }
+                        #logos_redes_sociales {
+                            font-size: 25px;
+                            margin: 7px;
+                        }
+                        #redes_sociales {
+                            margin-top: -39px;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 67.2%;
+                        }
+                        /*Desde aqui inician los estilos del contador*/
+                        /*Aqui finalizan los estilos del contador*/
+                         ::i-block-chrome,
+                        #imagen_abrir_comillas {
+                            right: 69.2%;
+                        }
+                         ::i-block-chrome,
+                        #imagen_cerrar_comillas {
+                            right: 33%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 885px) {
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 1.5vw;
+                        }
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 1.5vw;
+                        }
+                        #linea_rosita {
+                            margin-top: 13px;
+                        }
+                        #imagen_carta {
+                            margin-top: 3.5%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 800px) {
+                        #div_que_es_litigando_contenedor_1 {
+                            padding-top: 12px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 767px) {
+                        .texto_ciudades {
+                            padding: 1% 0px 7% 0px;
+                            font-size: 2.5vw;
+                        }
+                        .contenedor_pasos {
+                            padding: 0px 90px;
+                            font-size: 2.5vw;
+                        }
+                        #que_es_sv_2 {
+                            padding: 20px 50px 33px 50px;
+                        }
+                        .titulo_mision_vision {
+                            font-size: 2.8vw;
+                        }
+                        .texto_mision_vision {
+                            font-size: 2vw;
+                        }
+                        #imagen_principal {
+                            margin-top: 70px;
+                        }
+                        #imagen_cargando {
+                            margin-top: 11%;
+                        }
+                         ::i-block-chrome,
+                        #imagen_conexion_remota {
+                            margin-top: -67% !important;
+                        }
+                         ::i-block-chrome,
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 10px;
+                        }
+                         ::i-block-chrome,
+                        #imagen_abrir_comillas {
+                            right: 74.2%;
+                        }
+                         ::i-block-chrome,
+                        #imagen_cerrar_comillas {
+                            right: 29%;
+                        }
+                        .titulos_portafolio {
+                            font-size: 2.6vw;
+                        }
+                        #titulo_servicios {
+                            padding: 3%;
+                            font-size: 2.5vw;
+                        }
+                        .textos_contenedor_portafolio_1 {
+                            font-size: 2vw;
+                            padding-bottom: 3%;
+                        }
+                        #imagenes_clientes {
+                            width: 81%;
+                            height: auto;
+                        }
+                        #imagen_conexion_remota {
+                            margin-top: -52%;
+                        }
+                        #texto_algunos_de_nuestros_clientes {
+                            font-size: 3vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 700px) {
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 1.7vw;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 1.7vw;
+                        }
+                         ::i-block-chrome,
+                        #div_gestion_judicial {
+                            font-size: 30px;
+                            margin-top: -47%;
+                        }
+                         ::i-block-chrome,
+                        #texto_confie {
+                            font-size: 8px;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 34%;
+                            top: 38%;
+                            width: 1.6vw;
+                        }
+                        #imagen_contacto {
+                            height: 16vw;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 69%;
+                            width: 1.6vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 650px) {
+                        #texto_contacto {
+                            font-size: 3.8vw;
+                        }
+                        #imagen_contacto {
+                            height: 25vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 634px) {
+                        /*Aqui inician los estilos de la ventana modal de cotizacion*/
+                        #texto_diligencie {
+                            font-size: 2vw;
+                        }
+                        #input_solicitud {
+                            margin-top: 10px;
+                        }
+                        #texto_seleccione {
+                            font-size: 2.2vw;
+                        }
+                        label {
+                            font-size: 2vw;
+                            padding-top: 1.5%;
+                        }
+                        #selectores {
+                            margin-left: 25%;
+                        }
+                        #input_submit_solicitud {
+                            margin-left: 28%;
+                            height: 4vw;
+                            width: 35%;
+                            font-size: 2vw;
+                        }
+                        /*Aqui finalizan los estilos de la ventana modal de cotizacion*/
+                    }
+                    
+                    @media screen and (max-width: 619px) {
+                        #imagen_principal {
+                            margin-top: 74px;
+                        }
+                         ::i-block-chrome,
+                        #imagen_conexion_remota {
+                            margin-top: -76% !important;
+                        }
+                        .carousel-col {
+                            padding-left: 30px;
+                        }
+                        #linea {
+                            height: 4px;
+                        }
+                        #div_gestion_judicial {
+                            font-size: 5.5vw;
+                            margin-top: -5%;
+                        }
+                         ::i-block-chrome,
+                        #div_gestion_judicial {
+                            font-size: 24px;
+                            margin-top: -47%;
+                        }
+                         ::i-block-chrome,
+                        #imagen_cerrar_comillas {
+                            right: 33%;
+                            width: 1%;
+                        }
+                         ::i-block-chrome,
+                        #imagen_abrir_comillas {
+                            right: 72%;
+                            width: 1%;
+                            top: 15%;
+                        }
+                        #texto_confie {
+                            font-size: 2.1vw;
+                        }
+                        /*Aqui inician los estilos del portafolio*/
+                        #texto_soporte_conexion {
+                            font-size: 4vw;
+                        }
+                        #parrafo_tipo_soporte {
+                            font-size: 2.2vw;
+                        }
+                        .imagenes_principales_de_soporte {
+                            width: 15%;
+                        }
+                        #imagen_conexion_remota {
+                            margin-top: -65%;
+                        }
+                        #div_defensa {
+                            text-align: center;
+                            margin-top: 17%;
+                        }
+                        /*Aqui finalizan los estilos del portafolio*/
+                        #texto_ciudades {
+                            font-size: 2vw;
+                            height: 4vw;
+                        }
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            font-size: 2vw;
+                            height: 4vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 570px) {
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 2.1vw;
+                        }
+                        #texto_como_funcionamos {
+                            font-size: 3.5vw;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 30%;
+                            top: 38.2%;
+                            width: 2vw;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 74%;
+                            width: 2vw;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 2.1vw;
+                        }
+                        #imagen_contacto {
+                            height: 23vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 545px) {
+                         ::i-block-chrome,
+                        #imagen_conexion_remota {
+                            margin-top: -87% !important;
+                        }
+                        .navbar-toggle {
+                            margin-top: 36px;
+                            margin-right: 59px;
+                        }
+                        #imagenes_telefono {
+                            margin-top: -9.2%;
+                        }
+                        #textarea_municipios {
+                            padding: 4px;
+                        }
+                        .imagenes_contenedor_portafolio_1 {
+                            width: 10%;
+                            left: 17%;
+                        }
+                        .textos_contenedor_portafolio_1 {
+                            font-size: 2.5vw;
+                        }
+                        .titulos_portafolio {
+                            font-size: 3.5vw;
+                        }
+                        .subtitulos_contenedor_portafolio_1 {
+                            font-size: 2.5vw;
+                            margin-top: -2%;
+                        }
+                        #logos_redes_sociales {
+                            font-size: 18px;
+                            margin: 5px;
+                        }
+                        #redes_sociales {
+                            margin-top: -28px;
+                        }
+                         ::i-block-chrome,
+                        #imagen_principal {
+                            margin-top: 73px;
+                        }
+                        /*Desde aqui inician los estilos del portafolio*/
+                        #div_defensa {
+                            margin-top: 19%;
+                        }
+                        #imagen_conexion_remota {
+                            margin-top: -68%;
+                        }
+                        /*Aqui finalizan los estilos del portafolio*/
+                    }
+                    
+                    @media screen and (max-width: 500px) {
+                        .texto_ciudades {
+                            padding: 1% 0px 11% 0px;
+                            font-size: 3.5vw;
+                        }
+                        #imagen_cargando {
+                            margin-top: 24%;
+                        }
+                        .texto_mision_vision {
+                            font-size: 2.5vw;
+                        }
+                         ::i-block-chrome,
+                        #imagen_conexion_remota {
+                            margin-top: -93% !important;
+                        }
+                         ::i-block-chrome,
+                        #imagen_abrir_comillas {
+                            right: 76%;
+                        }
+                        #textarea_municipios {
+                            max-height: 15vw !important;
+                            min-height: 15vw !important;
+                        }
+                        #imagen_cerrar {
+                            width: 70%;
+                        }
+                         ::i-block-chrome,
+                        #imagen_cerrar {
+                            width: 82%;
+                        }
+                        #titulo_servicios {
+                            padding: 2%;
+                            font-size: 3vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 487px) {
+                        .navbar-toggle {
+                            margin-right: 45px;
+                        }
+                        #imagenes_telefono {
+                            margin-top: -10%;
+                        }
+                        #imagen_contacto {
+                            height: 26vw;
+                        }
+                        /*Desde aqui inician los estilos de la cotizacion*/
+                        #texto_diligencie {
+                            font-size: 2.5vw;
+                        }
+                        #input_solicitud {
+                            height: 11px;
+                            padding: 9px;
+                        }
+                        #texto_seleccione {
+                            font-size: 2.7vw;
+                        }
+                        #selectores {
+                            margin-left: 14%;
+                        }
+                        label {
+                            font-size: 3vw;
+                        }
+                        #input_cantidad {
+                            height: 19px;
+                            padding: 10px;
+                        }
+                        #textarea_municipios {
+                            padding: 0px;
+                            padding-left: 10px;
+                        }
+                        #input_submit_solicitud {
+                            margin-left: 25%;
+                            height: 6vw;
+                            width: 40%;
+                            font-size: 2.7vw;
+                        }
+                        /*Aqui finalizan los estilos de la cotizacion*/
+                    }
+                    
+                    @media screen and (max-width: 457px) {
+                        #imagen_logo {
+                            margin-left: -41px;
+                            width: 183px;
+                            margin-top: 10px;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 2.5vw;
+                        }
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 2.5vw;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 78%;
+                            width: 2.3vw;
+                            top: 12%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 27%;
+                            top: 39%;
+                            width: 2.3vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 446px) {
+                         ::i-block-chrome,
+                        #div_gestion_judicial {
+                            margin-top: -56%;
+                            font-size: 17px;
+                        }
+                        #imagen_cargando {
+                            margin-top: 44%;
+                        }
+                        #imagen_logo_header {
+                            margin-top: -37px;
+                            padding-bottom: 0px;
+                        }
+                        #contenedor_total_portafolio_1 {
+                            padding-bottom: 0%;
+                            margin-top: -4%;
+                        }
+                        #texto_confie {
+                            font-size: 2.8vw;
+                            margin-top: -2%;
+                        }
+                         ::i-block-chrome,
+                        #texto_algunos_de_nuestros_clientes {
+                            font-size: 15px;
+                        }
+                         ::i-block-chrome,
+                        #texto_tipo_soporte {
+                            font-size: 23px;
+                            margin-top: -3%;
+                        }
+                         ::i-block-chrome,
+                        #titulo_servicios {
+                            padding: 3%;
+                            font-size: 15px;
+                        }
+                        .navbar-toggle {
+                            margin-top: 10px;
+                        }
+                         ::i-block-chrome,
+                        #texto_soporte_conexion {
+                            font-size: 25px;
+                        }
+                        .navbar-header:before,
+                        .navbar-header:after {
+                            height: 25px;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 2.7vw;
+                        }
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 2.9vw;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 82%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 23.1%;
+                            top: 39.5%;
+                            width: 2.3vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 429px) {
+                        #titulo_servicios {
+                            font-size: 4vw;
+                        }
+                        #imagen_contacto {
+                            height: 29vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 400px) {
+                        #logos_redes_sociales {
+                            font-size: 14px;
+                        }
+                        #imagenes_telefono {
+                            margin-top: -12%;
+                        }
+                         ::i-block-chrome,
+                        #imagen_conexion_remota {
+                            margin-top: -102% !important;
+                        }
+                        #texto_algunos_de_nuestros_clientes {
+                            font-size: 4vw;
+                        }
+                        #redes_sociales {
+                            margin-top: -24px;
+                        }
+                        #imagen_conexion_remota {
+                            margin-top: -74%;
+                        }
+                        #texto_ciudades {
+                            font-size: 2.5vw;
+                            height: 5vw;
+                            padding-top: 0.7%;
+                        }
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            font-size: 2.5vw;
+                            height: 5vw;
+                            padding-top: 0.7%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 386px) {
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 3.1vw;
+                            margin-left: 2%;
+                        }
+                        .contenedor_pasos {
+                            font-size: 3vw;
+                        }
+                        .titulo_mision_vision {
+                            font-size: 5vw;
+                        }
+                        .texto_mision_vision {
+                            font-size: 3vw;
+                        }
+                        #texto_diligencie {
+                            font-size: 3vw;
+                        }
+                        #imagen_cotizacion {
+                            height: 14vw;
+                        }
+                        #textarea_municipios {
+                            max-height: 18vw !important;
+                            min-height: 18vw !important;
+                        }
+                         ::i-block-chrome,
+                        #imagen_conexion_remota {
+                            margin-top: -105% !important;
+                        }
+                        .imagenes_contenedor_portafolio_1 {
+                            width: 12%;
+                            left: 12%;
+                        }
+                        label {
+                            font-size: 3.5vw;
+                        }
+                        #selectores {
+                            margin-left: 7%;
+                        }
+                        #texto_seleccione {
+                            font-size: 3.2vw;
+                        }
+                        .subtitulos_contenedor_portafolio_1 {
+                            font-size: 3vw;
+                            margin-top: -3%;
+                        }
+                        .titulos_portafolio {
+                            font-size: 4.2vw;
+                        }
+                        .textos_contenedor_portafolio_1 {
+                            font-size: 3vw;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 20%;
+                            top: 40.5%;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 86%;
+                        }
+                        #imagen_contacto {
+                            height: 33vw;
+                        }
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 3.3vw;
+                            margin-left: 1%;
+                        }
+                        #texto_contacto {
+                            font-size: 4.5vw;
+                        }
+                        /*Desde aqui inician los estilos del contador*/
+                        #imagen_carta {
+                            width: 19%;
+                            right: 64%;
+                            margin-top: 6.5%;
+                        }
+                        /*Aqui finalizan los estilos del contador*/
+                    }
+                    
+                    @media screen and (max-width: 364px) {
+                        #texto_como_funcionamos {
+                            font-size: 4.5vw;
+                        }
+                         ::i-block-chrome,
+                        #imagen_conexion_remota {
+                            margin-top: -112% !important;
+                        }
+                        /*Aqui inician los estilos del portafolio*/
+                        #texto_soporte_conexion {
+                            font-size: 5vw;
+                        }
+                        #texto_tipo_soporte {
+                            font-size: 5vw;
+                            margin-top: -5%;
+                        }
+                        #parrafo_tipo_soporte {
+                            font-size: 3.5vw;
+                        }
+                        #imagen_conexion_remota {
+                            margin-top: -92%;
+                        }
+                        /*Aqui finalizan los estilos del portafolio*/
+                    }
+                    
+                    @media screen and (max-width: 353px) {
+                        #imagen_cargando {
+                            margin-top: 62%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 339px) {
+                        #imagen_logo {
+                            margin-left: -24px;
+                        }
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 3.6vw;
+                            margin-left: 3%;
+                        }
+                        #redes_sociales {
+                            margin-top: -21px;
+                        }
+                        #logos_redes_sociales {
+                            font-size: 10px;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 88%;
+                            top: 13%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 16%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 316px) {
+                        #imagen_logo {
+                            margin-left: -24px;
+                            margin-top: -28%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 315px) {
+                        #imagen_logo {
+                            margin-top: -102px;
+                        }
+                        #imagen_contacto {
+                            height: 35vw;
+                        }
+                        #imagen_abrir_comillas {
+                            top: 14%;
+                        }
+                        .titulos_portafolio {
+                            font-size: 4.6vw;
+                        }
+                        .textos_contenedor_portafolio_1 {
+                            font-size: 3.7vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 300px) {
+                        #imagen_logo {
+                            margin-top: -92px;
+                        }
+                        .texto_ciudades {
+                            padding: 1% 0px 14% 0px;
+                            font-size: 4.5vw;
+                        }
+                        #texto_ciudades {
+                            font-size: 3vw;
+                            padding-top: 0.7%;
+                        }
+                        #texto_ciudades_barranquilla_bucaramanga {
+                            font-size: 3vw;
+                            padding-top: 0.7%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 290px) {
+                        #imagen_conexion_remota {
+                            margin-top: -98%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 270px) {
+                        #imagen_logo {
+                            margin-top: 7px;
+                            margin-left: 3px;
+                        }
+                        #imagen_cargando {
+                            margin-top: 90%;
+                        }
+                        .imagenes_contenedor_portafolio_1 {
+                            width: 15%;
+                            left: 4%;
+                        }
+                        .subtitulos_contenedor_portafolio_1 {
+                            font-size: 4vw;
+                            margin-top: -5%;
+                        }
+                        .titulos_portafolio {
+                            font-size: 5vw;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 3.3vw;
+                            margin-left: 3%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 252px) {
+                        #imagenes_telefono {
+                            margin-top: -15%;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 3.4vw;
+                        }
+                        #imagen_conexion_remota {
+                            margin-top: -102%;
+                        }
+                        #div_que_es_litigando_contenedor_2 {
+                            font-size: 4.2vw;
+                        }
+                        #imagen_logo {
+                            margin-top: 7px;
+                            margin-left: -7px;
+                        }
+                        #imagen_contacto {
+                            height: 40vw;
+                        }
+                        #imagen_abrir_comillas {
+                            right: 95%;
+                            top: 15%;
+                        }
+                        #imagen_cerrar_comillas {
+                            right: 11%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 227px) {
+                        .navbar-toggle {
+                            margin-right: 18px;
+                        }
+                        #imagen_logo_header {
+                            margin-left: -66px;
+                        }
+                        #imagen_contacto {
+                            height: 44vw;
+                        }
+                        #imagen_cargando {
+                            margin-top: 111%;
+                        }
+                        #div_que_es_litigando_contenedor_1 {
+                            font-size: 3.5vw;
+                            margin-left: 1%;
+                            padding-top: 8px;
+                        }
+                        #imagen_logo {
+                            margin-top: 11px;
+                            margin-left: -15px;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 215px) {
+                        #imagen_logo {
+                            margin-left: -22px;
+                        }
+                        #imagen_conexion_remota {
+                            margin-top: -106%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 200px) {
+                        #imagen_logo {
+                            margin-left: -29px;
+                        }
+                        #imagen_contacto {
+                            height: 50vw;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 187px) {
+                        #imagen_conexion_remota {
+                            margin-top: -115%;
+                        }
+                        #imagen_logo {
+                            margin-left: -29px;
+                        }
+                    }
+                    /*------------------------------------------------------------------------------------
+Aqui finalizan los estilos de acuerdo a el ancho de la pantalla
+-------------------------------------------------------------------------------------*/

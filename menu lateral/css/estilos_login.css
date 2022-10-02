@@ -1,0 +1,96 @@
+body {
+    display: block;
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+}
+/*Estos son los estilos para los botones de enviar y cancelar login*/
+
+.botones_login {
+    background-color: #647396;
+    color: #fff;
+    font-size: 1.5em;
+    border: none;
+    padding: 0.2em 0em;
+    border-radius: 0.5em;
+    width: 34%;
+    margin: 1em 0em 0em 0em;
+}
+/*Estos son los estilos para la imagen de logo del login*/
+
+#imagen_logo_login {
+    width: 7em;
+    height: auto;
+}
+/*Esto es para los input del login*/
+
+.input_login {
+    width: 52%;
+    text-align: center;
+    border-radius: 6px;
+    border: solid 1.5px #69789a;
+    font-size: 1.5em;
+    padding: 0.2em 0em 0.2em 0em;
+}
+/*Estos son los estilos para la imagen de fondo del login*/
+
+.background-body {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url('../imagenes/Fondo_login.png');
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+/*Estos son los estilos para el contenedor del formulario de login*/
+
+.contenedor_form {
+    border-radius: 20px;
+    z-index: 9989;
+    color: #FFFFFF;
+    left: 20%;
+    background-color: #00000070;
+    padding: 25px;
+    position: absolute;
+    right: 20%;
+    text-align: center;
+    top: 5%;
+    width: auto;
+}
+/*Desde aqui inician los estilos responsive*/
+
+@media screen and (max-width: 830px) {
+    .input_login {
+        width: 77%;
+        font-size: 1.2em;
+    }
+    .botones_login {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 520px) {
+    .contenedor_form {
+        left: 8%;
+        right: 8%;
+    }
+}
+@media screen and (max-width: 385px) {
+    h1 {
+        font-size: 1.5em !important;
+    }
+    .input_login {
+        width: 96%;
+        font-size: 1em;
+    }
+    .botones_login {
+        font-size: 1em;
+        width: 80%;
+    }
+}
+/*Aqui terminan los estilos responsive*/
